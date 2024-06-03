@@ -1,0 +1,151 @@
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "patterns": [
+          "Hola",
+          "¿Cómo estás?",
+          "Buenos días",
+          "Buenas tardes",
+          "Buenas noches",
+          "¿Qué tal?",
+          "¿Cómo te va?",
+          "Hola, ¿qué tal?",
+          "Hey"
+        ],
+        "responses": [
+          "¡Hola!",
+          "¡Hola! ¿En qué puedo ayudarte?",
+          "¡Hola! ¿Cómo estás?",
+          "¡Buenos días! ¿Cómo te encuentras?",
+          "¡Buenas tardes! ¿Qué puedo hacer por ti?",
+          "¡Buenas noches! ¿Necesitas algo?",
+          "¡Hey! ¿Qué tal?",
+          "¡Hola! Espero que estés bien"
+        ]
+      },
+      {
+        "tag": "despedida",
+        "patterns": [
+          "Adiós",
+          "Hasta luego",
+          "Nos vemos",
+          "Chao",
+          "Hasta la próxima",
+          "Me voy",
+          "Cuídate",
+          "Hasta mañana"
+        ],
+        "responses": [
+          "¡Adiós!",
+          "¡Hasta luego!",
+          "¡Nos vemos!",
+          "¡Chao!",
+          "¡Hasta la próxima!",
+          "¡Cuídate!",
+          "¡Hasta mañana!",
+          "¡Espero verte pronto!"
+        ]
+      },
+      {
+        "tag": "gracias",
+        "patterns": [
+          "Gracias",
+          "Muchas gracias",
+          "Te lo agradezco",
+          "Gracias por tu ayuda",
+          "Eres muy amable",
+          "Mil gracias",
+          "Te agradezco mucho"
+        ],
+        "responses": [
+          "¡De nada!",
+          "¡Para eso estoy!",
+          "¡No hay de qué!",
+          "¡Siempre a tu disposición!",
+          "¡Me alegra poder ayudarte!",
+          "¡Fue un placer ayudarte!",
+          "¡Con gusto!"
+        ]
+      },
+      {
+        "tag": "ayuda",
+        "patterns": [
+          "Necesito ayuda",
+          "¿Puedes ayudarme?",
+          "Ayúdame por favor",
+          "Tengo una pregunta",
+          "Tengo un problema",
+          "Necesito asistencia",
+          "¿Me podrías ayudar?",
+          "¿Puedes asistirme?"
+        ],
+        "responses": [
+          "Claro, ¿en qué puedo ayudarte?",
+          "Por supuesto, ¿qué necesitas?",
+          "Dime, ¿cuál es tu pregunta?",
+          "Estoy aquí para ayudarte, ¿qué necesitas?",
+          "¡Claro! Cuéntame tu problema",
+          "Dime en qué necesitas asistencia",
+          "Estoy aquí para ayudarte, ¿qué te preocupa?",
+          "Por supuesto, dime cómo puedo asistirte"
+        ]
+      },
+      {
+        "tag": "informacion",
+        "patterns": [
+          "Quiero saber más sobre ti",
+          "¿Quién eres?",
+          "Cuéntame sobre ti",
+          "¿Qué puedes hacer?",
+          "¿Cuál es tu propósito?",
+          "¿Para qué sirves?",
+          "Háblame de ti"
+        ],
+        "responses": [
+          "Soy un chatbot diseñado para asistirte con diversas tareas y responder a tus preguntas.",
+          "Estoy aquí para ayudarte con lo que necesites.",
+          "Puedo hacer muchas cosas, como responder preguntas, dar información y más.",
+          "Mi propósito es asistirte y hacer tu vida más fácil.",
+          "Estoy aquí para ayudarte en lo que necesites, ya sea información o asistencia.",
+          "Soy un asistente virtual creado para ayudarte con diferentes tareas.",
+          "Mi objetivo es proporcionarte la ayuda que necesitas de manera rápida y eficiente."
+        ]
+      },
+      {
+        "tag": "tiempo",
+        "patterns": [
+          "¿Qué hora es?",
+          "Dime la hora",
+          "¿Qué día es hoy?",
+          "¿Cuál es la fecha de hoy?",
+          "¿Qué fecha es?",
+          "¿Qué hora tienes?"
+        ],
+        "responses": [
+          "Lo siento, no tengo acceso a la hora y fecha actual.",
+          "No puedo decirte la hora, pero puedes verla en tu dispositivo.",
+          "La fecha y hora actuales deberían estar disponibles en tu dispositivo."
+        ]
+      },
+      {
+        "tag": "estado",
+          "patterns": [
+              "¿Cómo te sientes?",
+              "¿Estás bien?",
+              "¿Qué tal estás?",
+              "¿Cómo va todo?",
+              "¿Cómo andas?",
+              "¿Todo bien?"
+          ],
+          "responses": [
+              "Estoy bien, gracias por preguntar.",
+              "Estoy aquí para ayudarte, siempre bien.",
+              "Todo va bien, ¿cómo estás tú?",
+              "Estoy operativo y listo para asistirte.",
+              "Todo bien por aquí, ¿en qué puedo ayudarte?"
+          ]
+      }
+    ]
+  }
+  
